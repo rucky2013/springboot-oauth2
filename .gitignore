@@ -13,3 +13,4 @@ hs_err_pid*
 /oauth.iml
 /springboot-oauth2.iml
 /.idea/
+/target/
