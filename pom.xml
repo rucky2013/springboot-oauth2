@@ -33,6 +33,7 @@
         <dependency>
             <groupId>org.springframework.social</groupId>
             <artifactId>spring-social-github</artifactId>
+            <version>RELEASE</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.social/spring-social-linkedin -->
         <dependency>
