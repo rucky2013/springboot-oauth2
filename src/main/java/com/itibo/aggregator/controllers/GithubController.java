@@ -37,24 +37,4 @@ public class GithubController {
         }
         return "helloGithub";
     }
-
-    @RequestMapping(value = "/connect/github", method = RequestMethod.GET)
-    public String connectGithub(Model model) {
-
-        if (!this.gitHub.isAuthorized()) {
-            return "/connect/githubConnect";
-        }
-
-        return "helloGithub";
-    }
-
-    @RequestMapping(value = "/connect/github", method = RequestMethod.POST)
-    public String connectToGithub(Model model) {
-
-        if (!this.gitHub.isAuthorized()) {
-            return "/connect/githubConnect";
-        }
-
-        return "helloGithub";
-    }
 }
